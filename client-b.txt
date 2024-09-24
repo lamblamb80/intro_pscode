@@ -2,3 +2,40 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+// Converts passed location to grid coordinates for store
+Grid Function
+	Convert entered location to grid coordinates
+	RETURN Coordinates
+	
+// Determines direction and distance to travel in x-coordinates then prints output
+X-Direction Function
+	User Coordinates = Grid Function for entered user location
+	Destination Coordinates = Grid Function for set destination
+	
+	Difference = (x-coordinates of destination) - (x-coordinates of user current location)
+	
+	IF Difference is < 0
+		Direction = "West"
+	ELSE
+		Direction = "East"
+	PRINT "Head " + Direction + " " + Difference + " feet"
+	
+// Determines direction and distance to travel in y-coordinates then prints output
+Y-Direction Function
+	User Coordinates = Grid Function for entered user location
+	Destination Coordinates = Grid Function for set destination
+	
+	Difference = (y-coordinates of destination) - (y-coordinates of user current location)
+	
+	IF Difference is < 0
+		Direction = "South"
+	ELSE
+		Direction = "North"
+	PRINT " then Head " + Direction + " " + Difference + " feet"
+	
+	
+// Main Body
+
+Prompt user to enter their location and set destination
+Call X-Direction Function passing the user location and set destination
+Call Y-Direction Function passing the user location and set destination

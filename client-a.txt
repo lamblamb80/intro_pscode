@@ -2,3 +2,28 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+// random number generation function
+
+Random Number Generator
+	Number = Random number function generates output between 1-10
+	RETURN Number
+
+// function to handle guesses. It is passed total number of guesses and the random number as arguments
+
+Guess Function
+	Prompt user to enter guess between 1-10
+	IF guess == random number THEN 
+		PRINT "Success!"
+		END Program
+	ELSE 
+		Decrease value Number of Guesses by 1
+		IF Number of Guesses == 0 THEN
+			PRINT "Failure"
+			END Program
+		ELSE run Guess Function again with updated arguments
+}
+
+// main program body
+
+Number = Call Random Number Generator function
+Guess Function (3, Number)  // Calls Guess Function 

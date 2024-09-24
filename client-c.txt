@@ -2,3 +2,20 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+// Scan Function, takes Count variable as argument
+
+Scan Function
+	Count + 2
+	IF Count > 50 
+		Count = 0
+		PRINT "Start New Case"
+		PRINT Count
+	ELSE PRINT Count
+	RETURN Count
+	
+// Main Body
+
+Count = 0
+WHILE Hardware is On
+	IF Object Scanned
+ 		Call Scan Function
