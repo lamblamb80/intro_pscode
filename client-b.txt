@@ -41,5 +41,8 @@ Y-Direction Function
 // Main Body
 
 Prompt user to enter their location and set destination
-Call X-Direction Function passing the user location and set destination
-Call Y-Direction Function passing the user location and set destination
+IF user location == set destination
+	PRINT "You're here"
+ELSE
+	Call X-Direction Function passing the user location and set destination
+	Call Y-Direction Function passing the user location and set destination
