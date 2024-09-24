@@ -11,7 +11,6 @@ Scan Function
 		PRINT "Start New Case"
 		PRINT Count
 	ELSE PRINT Count
-	RETURN Count
 	
 // Main Body
 
