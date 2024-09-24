@@ -16,9 +16,11 @@ X-Direction Function
 	
 	IF Difference is < 0
 		Direction = "West"
-	ELSE
+		PRINT "Head " + Direction + " " + Difference + " feet"
+	ELSEIF Difference > 0
 		Direction = "East"
-	PRINT "Head " + Direction + " " + Difference + " feet"
+		PRINT "Head " + Direction + " " + Difference + " feet"
+	ELSE PRINT ""
 	
 // Determines direction and distance to travel in y-coordinates then prints output
 Y-Direction Function
@@ -29,9 +31,11 @@ Y-Direction Function
 	
 	IF Difference is < 0
 		Direction = "South"
-	ELSE
+		PRINT "Head " + Direction + " " + Difference + " feet"
+	ELSEIF Difference > 0
 		Direction = "North"
-	PRINT " then Head " + Direction + " " + Difference + " feet"
+		PRINT "Head " + Direction + " " + Difference + " feet"
+	ELSE PRINT ""
 	
 	
 // Main Body
